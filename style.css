@@ -193,7 +193,6 @@ ul, ol, li {
 
 
 
-
 /* 이클립스바 */
 .ecl_bar {
     width: 100%;
@@ -271,8 +270,8 @@ em, address {
     height: 740px;
 }
 /* 캐릭터 전신 */
-.sub header .char42 {
-    background: url(../img/character/eclipse/42.png) no-repeat 50% 0;
+.sub header .char99 {
+    background: url(99.png) no-repeat 50% 0;
 }
 
 /* 캐릭터 영역 */
@@ -930,7 +929,7 @@ img {
     color: #999;
     font-size: 14px;
     line-height: 22px;
-    font-weight: 300;
+    font-weight: 350;
     letter-spacing: 0;
 }
 
@@ -957,7 +956,7 @@ img {
     font-size: 15px;
     line-height: 22px;
     letter-spacing: 0;
-    font-weight: 300;
+    font-weight: 350;
 }
 
 .sub .s3 h3 {
@@ -986,7 +985,7 @@ img {
     padding: 30px 0 30px 30px;
     margin: 0 0 0 1px;
     width: 921px;
-    height: 457px;
+    height: 40px;
     border: 1px solid #555;
     background: #222;
     box-shadow: 7px 5px 12px rgba(0, 0, 0, 0.5);
@@ -1001,6 +1000,24 @@ img {
     font-size: 0;
     cursor: pointer;
 }
+
+.ly_charslt ul li.slt {
+    background: #c5736a;
+    cursor: default;
+}
+
+.ly_charslt ul li.slt span {
+    color: #fff;
+}
+
+.ly_charslt ul li:hover span {
+    color: #fff;
+}
+
+.ly_charslt ul li:hover {
+    background: #666;
+}
+
 ul, ol, li {
     list-style: none;
 }
@@ -1194,11 +1211,221 @@ table {
 }
 
 
-/* 기본 */
+/* 콘텐츠 */
+.sub .s6_1 {
+    margin-bottom: 48px;
+}
 
-/* 스킬 */
-/* 퀵보이스 */
-/* 메시지 */
+.sub .s6_1 h2 {
+    margin: -1px 0 6px 0;
+}
+
+.sub .s6_1 p {
+    overflow: hidden;
+}
+
+.sub .s6_1 p:nth-last-child(1) span, .sub .s6_1 p:nth-last-child(1) a {
+    border-bottom: none;
+}
+
+.sub .s6_1 p em {
+    padding-right: 20px;
+    color: #999;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.sub .s6_1 p span i {
+    color: #555;
+    font-weight: 300;
+    font-size: 14px;
+    font-style: normal;
+}
+
+
+.sub .s6_1 p a b {
+    display: inline-bolck;
+    padding-right: 15px;
+    background: url(ico_down.png) no-repeat right 0;
+}
+
+.sub .s6_1 p a:hover {
+    color: #eb4242;
+}
+
+.sub .s6_1 p a:hover b {
+    background-position: right -22px;
+}
+
+.sub .s6_1 p span, .sub .s6_1 p a {
+    display: block;
+    float: left;
+    padding: 13px 0 15px 0;
+    border-bottom: 1px solid #222;
+    line-height: 22px;
+    font-style: normal;
+    letter-spacing: 0;
+}
+
+.sub .s6_1 p span {
+    width: 820px;
+    padding-left: 30px;
+    background: #191919;
+}
+
+.sub .s6_1 p a {
+    width: 98px;
+    padding-left: 32px;
+    background: #000;
+    color: #777;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* bgm */
+.sub .s6_2 {
+    position: relative;
+    margin-bottom: 53px;
+}
+
+.sub .s6_2 h2 {
+    margin-bottom: 9px;
+}
+
+.sub .s6_2 .btn_bgm_down {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 75px;
+    padding: 16px 0 12px 20px;
+    color: #777;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+}
+
+.sub .s6_2 .btn_bgm_down b {
+    display: inline-bolck;
+    padding-right: 17px;
+    background: url(ico_down.png) no-repeat right 0;
+}
+
+.sub .s6_2 .btn_bgm_down:hover {
+    color: #eb4242;
+}
+
+.sub .s6_2 .btn_bgm_down:hover b {
+    background-position: right -22px;
+}
+
+.sub .s6_2 ul {
+    margin-bottom: 25px;
+    border-top: 1px solid #444;
+}
+
+.sub .s6_2 ul li {
+    overflow: hidden;
+    border-bottom: 1px solid #444;
+}
+
+.sub .s6_2 ul li a {
+    width: 67px;
+    height: 79px;
+    margin-right: 6px;
+    text-indent: -9999px;
+    background: url(btn_play.png) no-repeat 0 0;
+}
+
+.sub .s6_2 ul li:hover a {
+    background-position: 0 -79px;
+}
+
+.sub .s6_2 ul li p {
+    padding-top: 14px;
+    color: #555;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 300;
+    letter-spacing: 0;
+}
+
+.sub .s6_2 ul li p span {
+    color: #999;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+.sub .s6_2 ul li p i {
+    display: block;
+    font-style: normal;
+}
+
+.sub .s6_2 ul li a, .sub .s6_2 ul li p {
+    display: block;
+    float: left;
+}
+
+
+/* 곡.작곡가 정보 */
+.sub .s6_2 h3 {
+    margin: 0 0 9px 0;
+}
+
+.sub .s6_3 h2 {
+    margin-bottom: -6px;
+}
+
+.sub .s6_3 ul {
+    overflow: hidden;
+}
+
+.sub .s6_3 ul li {
+    float: left;
+    width: 300px;
+    margin: 26px 40px 0 0;
+}
+
+.sub .s6_3 ul li h3 {
+    margin: 0 0 10px 0;
+    color: #999;
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+.sub .s6_3 ul li p {
+    position: relative;
+}
+
+.sub .s6_3 ul li p span {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 300px;
+    height: 158px;
+    background: rgba(34, 34, 34, .8);
+    text-align: center;
+}
+
+.sub .s6_3 ul li p span a {
+    display: inline-block;
+    margin: 58px 2px 0 2px;
+    width: 43px;
+    height: 43px;
+    background: url(btn_fk_dn.png) no-repeat;
+    text-indent: -9999px;
+}
+
+.sub .s6_3 ul li p span a.vod {
+    background-position-x: -50px;
+}
+
+.sub .s6_3 ul li p span a:hover {
+    background-position-y: -100px;
+}
+
+
 
 /* 하단 */
 footer {
